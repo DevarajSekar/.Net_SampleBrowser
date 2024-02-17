@@ -19,6 +19,12 @@ namespace Palindrome
             {
                 revStr += str[i];
             }
+
+            //2nd method
+            //char[] charArray = s.ToCharArray();
+            //Array.Reverse(charArray);
+            //return new string(charArray);
+
             if (revStr.ToLower() == str.ToLower())
             {
                 Console.WriteLine("It is a Palindrome");
